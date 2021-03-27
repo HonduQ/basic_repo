@@ -1,0 +1,15 @@
+go to GitHub, select new repo, name it basic_repo
+mkdir gitrepo
+cd gitrepo
+git init basic_repo
+touch index.html style.css readme.txt
+code index.html style.css readme.txt
+git add index.html style.css readme.txt
+git commit . -m "basic_repo project"
+git remote add basic_repo https://github.com/HonduQ/basic_repo.git
+git push basic_repo
+code index.html style.css readme.txt
+git add index.html style.css readme.txt
+git commit .
+git push basic_repo
+go to github.com, open basic_repo repository
